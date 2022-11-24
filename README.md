@@ -1,0 +1,2 @@
+# netology
+for devops course 
