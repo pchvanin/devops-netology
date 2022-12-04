@@ -1,14 +1,14 @@
 Будут проигнорированы :
-Локальные директории terraform
-все.tfstate файлы
-все.tfstate.все файлы 
-crash.log файл
-crash.все.log файлы
-все.tfvars файлы
-все.tfvars.json файлы
-override.tf файл
-override.tf.json файл
-все_override.tf файлы
-все_override.tf.json файлы
-.terraformrc - файл
-terraform.rc - файл
+- Локальные директории terraform
+- все.tfstate файлы
+- все.tfstate.все файлы 
+- crash.log файл
+- crash.все.log файлы
+- все.tfvars файлы
+- все.tfvars.json файлы
+- override.tf файл
+- override.tf.json файл
+- все_override.tf файлы
+- все_override.tf.json файлы
+- .terraformrc - файл
+- terraform.rc - файл
