@@ -8,3 +8,4 @@
 
 ## Задание №2
 
+add new string
