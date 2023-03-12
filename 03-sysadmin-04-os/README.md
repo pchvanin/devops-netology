@@ -113,9 +113,9 @@ CPU (`curl http://localhost:9100/metrics | grep node_cpu`):
 
 Настроил `/etc/netdata/netdata.conf` и `Vagrantfile`.
 
-После перезагрузи дашборд Netdata доступен на локальном устройстве: 
+После перезагрузки дашборд Netdata доступен на локальном устройстве: 
 
-![](img/netdata.png)
+[Netdata](img/netdata.png)
 
 ---
 
