@@ -144,6 +144,6 @@ UNCONN         0              0                                     [::]:5353   
 * 68 - Network Manager 
 ___
 5. Используя diagrams.net, создайте L3 диаграмму вашей домашней сети или любой другой сети, с которой вы работали.
-![Diagram](Screenshot from 2023-05-13 09-34-03.png)
+![Diagram](screen1.png)
 
 
