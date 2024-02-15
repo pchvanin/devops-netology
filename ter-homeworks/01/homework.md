@@ -17,5 +17,7 @@ terraform apply -auto-approve - при использовании ключа app
 ---
 7. 
 ![terraform4](IMG/tf4.png)
-8. Образ не был удален, так как была использована опция -keep_locally
+---
+8.
+Образ не был удален, так как была использована опция -keep_locally
 keep_locally (Boolean) If true, then the Docker image won't be deleted on destroy operation. If this is false, it will delete the image from the docker local storage on destroy operation.
