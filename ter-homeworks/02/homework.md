@@ -89,7 +89,7 @@ variable "vm_web_sp" {
   }
 ```
 ## Задание 3
-![yc2](IMG/2.png)
+![image2](IMG/2.PNG)
 ### main.tf:
 ```shell
 resource "yandex_vpc_network" "develop" {
@@ -274,7 +274,7 @@ locals {
 }
 ```
 ### Результат:
-![yc3](IMG/3.png)
+![image3](IMG/3.PNG)
 ## Задание 6
 ### 1
 ```shell
