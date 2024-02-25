@@ -67,7 +67,7 @@ variable "vm_web_platform_id" {
   default = "standard-v2"
 }
 
-variable "vm_web_cores" {
+/*variable "vm_web_cores" {
   type = number
   default = 2
 }
@@ -80,7 +80,7 @@ variable "vm_web_memory" {
 variable "vm_web_fract" {
   type = number
   default = 5
-}
+}*/
 
 variable "vm_web_prmt" {
   type = bool

@@ -23,9 +23,9 @@ resource "yandex_compute_instance" "platform" {
   name        = var.vm_web_name
   platform_id = var.vm_web_platform_id
   resources {
-    cores         = var.vm_web_cores
-    memory        = var.vm_web_memory
-    core_fraction = var.vm_web_fract
+    cores         = var.vms_resources.web.cores
+    memory        = var.vms_resources.web.memory
+    core_fraction = var.vms_resources.web.core_fraction
   }
   boot_disk {
     initialize_params {
@@ -47,15 +47,16 @@ resource "yandex_compute_instance" "platform" {
 
 }
 ###netology-develop-platform-db
+
 resource "yandex_compute_instance" "platform2" {
   name        = var.vm_db_name
   platform_id = var.vm_db_platform_id
   zone           = var.vm_db_zone
 
   resources {
-    cores         = var.vm_db_cores
-    memory        = var.vm_db_memory
-    core_fraction = var.vm_db_fract
+    cores         = var.vms_resources.db.cores
+    memory        = var.vms_resources.db.memory
+    core_fraction = var.vms_resources.db.core_fraction
   }
   boot_disk {
     initialize_params {
