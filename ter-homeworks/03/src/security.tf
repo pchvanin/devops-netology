@@ -8,7 +8,7 @@ variable "security_group_ingress" {
       port           = optional(number)
       from_port      = optional(number)
       to_port        = optional(number)
-  }))
+    }))
   default = [
     {
       protocol       = "TCP"
@@ -42,9 +42,9 @@ variable "security_group_egress" {
       port           = optional(number)
       from_port      = optional(number)
       to_port        = optional(number)
-  }))
+    }))
   default = [
-    { 
+    {
       protocol       = "TCP"
       description    = "разрешить весь исходящий трафик"
       v4_cidr_blocks = ["0.0.0.0/0"]
@@ -56,7 +56,7 @@ variable "security_group_egress" {
 
 
 resource "yandex_vpc_security_group" "example" {
-  name       = "example_dynamic"
+  name       = var.sec_name
   network_id = yandex_vpc_network.develop.id
   folder_id  = var.folder_id
 
