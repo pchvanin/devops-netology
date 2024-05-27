@@ -44,6 +44,6 @@
    ![img_3.png](IMG/img_3.png)
 9. 08-ansible-03-yandex/SRC/playbook/README.md
 
-10.
+10. HEAD -> main, tag: 365ea3c29873c4ff8701daa5932bd75dae0dad1c, tag: 08-ansible-03-yandex
 
 
