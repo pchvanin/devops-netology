@@ -1,0 +1,19 @@
+---
+clickhouse:
+  hosts:
+    centos7-1:
+      ansible_host: 130.193.38.158
+      ansible_user: centos
+
+vector:
+  hosts:
+    centos7-2:
+      ansible_host: 51.250.14.125
+      ansible_user: centos
+
+lighthouse:
+  hosts:
+    centos7-3:
+      ansible_host: 51.250.7.83
+      ansible_user: centos
+
