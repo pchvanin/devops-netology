@@ -11,7 +11,11 @@
 >7. Проверить работоспособность, исправить ошибки, исправленный Pipeline вложить в репозиторий в файл `ScriptedJenkinsfile`.
 >8. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
 [Ссылка на FreestyleJob](https://github.com/pchvanin/devops-netology/blob/main/09-ci-04-jenkins-main/FreestyleJob)
+
+
 [Ссылка на Declarative Pipeline](https://github.com/pchvanin/devops-netology/blob/main/09-ci-04-jenkins-main/Jenkinsfile)
+
+
 [Ссылка на Scripted Pipeline](https://github.com/pchvanin/devops-netology/blob/main/09-ci-04-jenkins-main/ScriptedJenkinsfile)
 
 ---
