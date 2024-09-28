@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "09.03 Jenkins" 
+# Домашнее задание к занятию "09-04 Jenkins" 
 
 ## Основная часть
 
@@ -10,9 +10,8 @@
 >6. Внести необходимые изменения, чтобы Pipeline запускал `ansible-playbook` без флагов `--check --diff`, если не установлен параметр при запуске джобы (prod_run = True), по умолчанию параметр имеет значение False и запускает прогон с флагами `--check --diff`.
 >7. Проверить работоспособность, исправить ошибки, исправленный Pipeline вложить в репозиторий в файл `ScriptedJenkinsfile`.
 >8. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
-[Ссылка на FreestyleJob]()
- [Ссылка на Declarative Pipeline]()
-
-  [Ссылка на Scripted Pipeline]()
+[Ссылка на FreestyleJob](https://github.com/pchvanin/devops-netology/blob/main/09-ci-04-jenkins-main/FreestyleJob)
+[Ссылка на Declarative Pipeline](https://github.com/pchvanin/devops-netology/blob/main/09-ci-04-jenkins-main/Jenkinsfile)
+[Ссылка на Scripted Pipeline](https://github.com/pchvanin/devops-netology/blob/main/09-ci-04-jenkins-main/ScriptedJenkinsfile)
 
 ---
